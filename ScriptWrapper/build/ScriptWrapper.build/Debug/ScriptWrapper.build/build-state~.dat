@@ -1,0 +1,280 @@
+TScriptWrapper
+v7
+r2
+t344580225.718349
+cCheck dependencies
+cProcessPCH /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch.gch ScriptWrapper_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004CAA7405000000000006611C
+t1286239237
+s418076
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004E274D460000000000006560
+t1311198534
+s25952
+
+N/Users/acid/Dropbox/code/ScriptWrapper/../ScriptHelper/build/Debug/ScriptHelper
+c000000004ED9A7D000000000000026C0
+t1322887120
+s9920
+
+N/Users/acid/Dropbox/code/ScriptWrapper/Constants.h
+c000000004ED9A88300000000000000FF
+t1322887299
+s255
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/ScriptWrapper/Constants.m
+c000000004ED9A8FB000000000000010A
+t1322887419
+s266
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/ScriptWrapper/English.lproj/InfoPlist.strings
+c000000004ED9A343000000000000002D
+t1322885955
+s45
+
+N/Users/acid/Dropbox/code/ScriptWrapper/English.lproj/MainMenu.xib
+c000000004ED9A343000000000002BBAD
+t1322885955
+s179117
+
+N/Users/acid/Dropbox/code/ScriptWrapper/ScriptHelper
+c000000004ED9A8080000000000009414
+t1322887176
+s37908
+
+N/Users/acid/Dropbox/code/ScriptWrapper/ScriptRunner.icns
+c000000004B70BC840000000000015E29
+t1265679492
+s89641
+
+N/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapper.icns
+c000000004B70BC840000000000015E29
+t1265679492
+s89641
+
+N/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.h
+c000000004ED9A8FB000000000000020E
+t1322887419
+s526
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m
+c000000004ED9A8F80000000000000D8D
+t1322887416
+s3469
+i"ScriptWrapperAppDelegate.h"
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapper_Prefix.pch
+c000000004ED9A343000000000000009D
+t1322885955
+s157
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/ScriptHelper
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/ScriptRunner.icns
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/ScriptWrapper.icns
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/settings.plist
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapper.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/acid/Dropbox/code/ScriptWrapper/main.m
+c000000004ED9A3430000000000000101
+t1322885955
+s257
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/ScriptWrapper/settings.plist
+c000000004ED9A51000000000000000DE
+t1322886416
+s222
+
+N/var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch.gch
+t1322887425
+s54306576
+
+NScriptWrapper-Info.plist
+c000000004ED9A4E90000000000000410
+t1322886377
+s1040
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies344580219#344580219#0(0"0(0#1#0"4527228224#0"0#
+
+CCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o /Users/acid/Dropbox/code/ScriptWrapper/Constants.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344580225.420415
+e344580225.715106
+r0
+xCompileC
+xbuild/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o
+x/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m: In function '-[ScriptWrapperAppDelegate readInSettings]':
+o/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:127: error: 'thisBundle' undeclared (first use in this function)
+o/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:127: error: (Each undeclared identifier is reported only once
+o/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:127: error: for each function it appears in.)
+o/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:129: error: 'settings' undeclared (first use in this function)
+o/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:130: error: 'debugEnabled' undeclared (first use in this function)
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_1
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_6
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_7
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_8
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27
+o{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_9
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29
+o{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_30
+lSLF07#2@73"Compile /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m344580225#344580225#0(3964"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m: In function '-[ScriptWrapperAppDelegate readInSettings]':/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:127: error: 'thisBundle' undeclared (first use in this function)/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:127: error: (Each undeclared identifier is reported only once/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:127: error: for each function it appears in.)/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:129: error: 'settings' undeclared (first use in this function)/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m:130: error: 'debugEnabled' undeclared (first use in this function){standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_0{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_1{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_SUP_REFS_$_1{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_2{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_2{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_3{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_4{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_3{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_4{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_10{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_11{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_5{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_12{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_13{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_6{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_14{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_15{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_16{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_7{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_17{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_18{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_8{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_19{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_20{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_21{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_22{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_23{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_24{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_25{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_26{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_27{standard input}:unknown:Undefined local symbol L_OBJC_CLASSLIST_REFERENCES_$_9{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_28{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_29{standard input}:unknown:Undefined local symbol L_OBJC_SELECTOR_REFERENCES_303(4@52"'thisBundle' undeclared (first use in this function)344580225#125#131#0(6@65"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m344580216#127#0#127#0#43"'*' undeclared (first use in this function)0(4@50"'settings' undeclared (first use in this function)344580225#496#129#0(6@65"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m344580216#129#0#129#0#43"'*' undeclared (first use in this function)0(4@54"'debugEnabled' undeclared (first use in this function)344580225#625#133#0(6@65"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m344580216#130#0#130#0#43"'*' undeclared (first use in this function)0(0#0#65"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m4527226512#1613"    cd /Users/acid/Dropbox/code/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch -c /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m -o /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o1#
+
+CCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o /Users/acid/Dropbox/code/ScriptWrapper/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/acid/Dropbox/code/ScriptWrapper/English.lproj/MainMenu.xib
+r0
+
+CCopyPlistFile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/settings.plist settings.plist
+r0
+
+CCopyStringsFile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptHelper ../ScriptHelper/build/Debug/ScriptHelper
+r0
+
+CCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptHelper ScriptHelper
+r0
+
+CCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptRunner.icns ScriptRunner.icns
+r0
+
+CCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptWrapper.icns ScriptWrapper.icns
+r0
+
+CLd /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper normal x86_64
+r0
+
+CProcessInfoPlistFile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist ScriptWrapper-Info.plist
+r0
+
+CProcessPCH /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch.gch ScriptWrapper_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s344580219.649249
+e344580225.420198
+r1
+xProcessPCH
+x/var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch.gch
+xScriptWrapper_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile ScriptWrapper_Prefix.pch344580219#344580225#0(0"0(0#0#63"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapper_Prefix.pch4527226512#1473"    cd /Users/acid/Dropbox/code/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -c /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapper_Prefix.pch -o /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch.gch0#
+
+CTouch /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app
+r0
+

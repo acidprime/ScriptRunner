@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>debugEnabled</key>
+	<true/>
+	<key>windowTitle</key>
+	<string>Directory Tool</string>
+	<key>scriptSudo</key>
+	<true/>
+	<key>scriptExtention</key>
+	<string>sh</string>
+	<key>scriptIsInBundle</key>
+	<true/>
+	<key>emailAddress</key>
+	<string>support@318.com</string>
+	<key>scriptArguments</key>
+	<array>
+		<string>one</string>
+		<string>two</string>
+		<string>three</string>
+		<string>four</string>
+		<string>five</string>
+	</array>
+	<key>scriptPath</key>
+	<string>genReport</string>
+	<key>scriptName</key>
+	<string>My Directory Contents</string>
+	<key>scriptDescription</key>
+	<string>This script lists the root directory</string>
+</dict>
+</plist>

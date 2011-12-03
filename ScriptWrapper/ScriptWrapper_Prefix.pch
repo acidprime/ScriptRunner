@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ScriptWrapper' target in the 'ScriptWrapper' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

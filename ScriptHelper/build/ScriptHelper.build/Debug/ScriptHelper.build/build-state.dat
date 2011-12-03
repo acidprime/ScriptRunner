@@ -1,0 +1,90 @@
+TScriptHelper
+v7
+r0
+t344579920.544338
+cCheck dependencies
+cCompileC build/ScriptHelper.build/Debug/ScriptHelper.build/Objects-normal/x86_64/main.o /Users/acid/Dropbox/code/ScriptHelper/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+cLd /Users/acid/Dropbox/code/ScriptHelper/build/Debug/ScriptHelper normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c000000004C239DAB0000000000000AF4
+t1277402539
+s2804
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Headers/Authorization.h
+c000000004C23A06400000000000056D5
+t1277403236
+s22229
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Headers/AuthorizationTags.h
+c000000004C23A0640000000000000EC4
+t1277403236
+s3780
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Security.framework/Security
+c000000004CAA7405000000000006611C
+t1286239237
+s418076
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004E8E65FE000000000060E710
+t1317955070
+s6350608
+
+N/Users/acid/Dropbox/code/ScriptHelper/build/Debug/ScriptHelper
+t1322887120
+s9920
+
+N/Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/Objects-normal/x86_64/ScriptHelper.LinkFileList
+c000000004ED9A7CE0000000000000075
+t1322887118
+s117
+
+N/Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/Objects-normal/x86_64/main.o
+t1322887120
+s8648
+
+N/Users/acid/Dropbox/code/ScriptHelper/main.c
+c000000004ED9A7B400000000000009A2
+t1322887092
+s2466
+i<CoreFoundation/CoreFoundation.h>
+i<Security/Authorization.h>
+i<Security/AuthorizationTags.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies344579918#344579918#0(0"0(0#1#0"17244985856#0"0#
+
+CCompileC build/ScriptHelper.build/Debug/ScriptHelper.build/Objects-normal/x86_64/main.o /Users/acid/Dropbox/code/ScriptHelper/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s344579918.995543
+e344579920.242781
+r1
+xCompileC
+xbuild/ScriptHelper.build/Debug/ScriptHelper.build/Objects-normal/x86_64/main.o
+x/Users/acid/Dropbox/code/ScriptHelper/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/acid/Dropbox/code/ScriptHelper/main.c: In function 'main':
+o/Users/acid/Dropbox/code/ScriptHelper/main.c:62: warning: pointer targets in passing argument 2 of 'read' differ in signedness
+o/Users/acid/Dropbox/code/ScriptHelper/main.c:64: warning: pointer targets in passing argument 2 of 'write' differ in signedness
+o/Users/acid/Dropbox/code/ScriptHelper/main.c:71: warning: format '%ld' expects type 'long int', but argument 2 has type 'OSStatus'
+lSLF07#2@52"Compile /Users/acid/Dropbox/code/ScriptHelper/main.c344579918#344579920#0(452"/Users/acid/Dropbox/code/ScriptHelper/main.c: In function 'main':/Users/acid/Dropbox/code/ScriptHelper/main.c:62: warning: pointer targets in passing argument 2 of 'read' differ in signedness/Users/acid/Dropbox/code/ScriptHelper/main.c:64: warning: pointer targets in passing argument 2 of 'write' differ in signedness/Users/acid/Dropbox/code/ScriptHelper/main.c:71: warning: format '%ld' expects type 'long int', but argument 2 has type 'OSStatus'3(22@68"Pointer targets in passing argument 2 of 'read' differ in signedness344579919#66#127#0(6@44"/Users/acid/Dropbox/code/ScriptHelper/main.c344579892#62#0#62#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@69"Pointer targets in passing argument 2 of 'write' differ in signedness344579919#193#128#0(6@44"/Users/acid/Dropbox/code/ScriptHelper/main.c344579892#64#0#64#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@72"Format '%ld' expects type 'long int', but argument 2 has type 'OSStatus'344579919#321#131#0(6@44"/Users/acid/Dropbox/code/ScriptHelper/main.c344579892#71#0#71#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#44"/Users/acid/Dropbox/code/ScriptHelper/main.c17246663936#1349"    cd /Users/acid/Dropbox/code/ScriptHelper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/ScriptHelper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/ScriptHelper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/ScriptHelper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/ScriptHelper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptHelper/build/Debug -I/Users/acid/Dropbox/code/ScriptHelper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/DerivedSources -c /Users/acid/Dropbox/code/ScriptHelper/main.c -o /Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/Objects-normal/x86_64/main.o0#
+
+CLd /Users/acid/Dropbox/code/ScriptHelper/build/Debug/ScriptHelper normal x86_64
+s344579920.242922
+e344579920.544209
+r1
+xLd
+x/Users/acid/Dropbox/code/ScriptHelper/build/Debug/ScriptHelper
+xnormal
+xx86_64
+lSLF07#2@67"Link /Users/acid/Dropbox/code/ScriptHelper/build/Debug/ScriptHelper344579920#344579920#0(0"0(0#0#0"4527226512#559"    cd /Users/acid/Dropbox/code/ScriptHelper    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/acid/Dropbox/code/ScriptHelper/build/Debug -F/Users/acid/Dropbox/code/ScriptHelper/build/Debug -filelist /Users/acid/Dropbox/code/ScriptHelper/build/ScriptHelper.build/Debug/ScriptHelper.build/Objects-normal/x86_64/ScriptHelper.LinkFileList -mmacosx-version-min=10.6 -framework CoreFoundation -framework Security -o /Users/acid/Dropbox/code/ScriptHelper/build/Debug/ScriptHelper0#
+

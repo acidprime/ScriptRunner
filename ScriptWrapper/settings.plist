@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>debugEnabled</key>
+	<true/>
+	<key>myScriptRunner</key>
+	<string>ScriptRunner</string>
+	<key>myScriptExtension</key>
+	<string>app</string>
+	<key>myScriptExec</key>
+	<string>/Contents/MacOS/ScriptRunner</string>
+	<key>myScriptHelper</key>
+	<string>ScriptHelper</string>
+</dict>
+</plist>
