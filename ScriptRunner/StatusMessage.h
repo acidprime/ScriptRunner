@@ -36,6 +36,5 @@
 - (void) updateStatusTxt;
 - (void) updatePhaseTxt;
 - (void)removePreviousFiles;
-- (void)repairStopped;
-
+- (void)taskComplete;
 @end

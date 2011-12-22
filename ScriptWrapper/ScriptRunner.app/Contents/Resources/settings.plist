@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>quitOnScriptExit</key>
+	<false/>
 	<key>debugEnabled</key>
 	<true/>
 	<key>scriptName</key>
@@ -11,8 +13,6 @@
 	<key>scriptDescription</key>
 	<string>Sample scriptDescription</string>
 	<key>scriptSudo</key>
-	<true/>
-	<key>quitOnScriptExit</key>
 	<true/>
 	<key>installPhaseTxt</key>
 	<string>/private/tmp/com.318.StatusMessage.phase</string>

@@ -4,15 +4,19 @@
         printf "%s\n" "This script requires root access!" && exit 1
 
 # Commands used by this script
-declare -x ls='/bin/ls'
+declare -x plutil='/usr/bin/plutil'
 declare -x touch='/usr/bin/touch'
 declare -x sleep='/bin/sleep'
+declare -x find='/usr/bin/find'
 declare -x whoami='/usr/bin/whoami'
+declare -x xargs='/usr/bin/xargs'
 
 # Standard Script Variables
 declare -x Script="${0##*/}" ; ScriptName="${Script%%\.*}"
 declare -x ScriptPath="$0" RunDirectory="${0%/*}"
+declare -x ProjectName='ScriptRunner'
 
+echo "RunDirectory=$RunDirectory"
 
 #Check Log Directory for current Script
 export SCRIPT_LOG="$LOG_DIRECTORY/$ScriptName.log"
@@ -51,7 +55,6 @@ showUsage(){
   exit 1 
 }
 
-
 if [ $# = 0 ] ; then
   showUsage
   FatalError "No arguments Given, but required for $ScriptName"
@@ -71,19 +74,54 @@ done # END while
 
 begin
 
-# Start the Progress Bar Off
-setInstallPercentage 10.00
-
 # Change IFS to handle spaces in the name
 OLD_IFS="$IFS"
 IFS=$'\n'
 echo "Script recieved arguments: $@"
 echo "whoami: $($whoami)"
 echo "Script effective UID: $EUID"
-for DIRECTORY in $($ls -l "$LIST_DIRECTORY") ; do
-  echo "$DIRECTORY"
-  # artificial sleep here to show you the now buffered IO
-  $sleep 1
+
+OLDIFS="$IFS"
+declare -a FILES=(${LIST_DIRECTORY:="/"}*)
+StatusMSG $FUNCNAME "Found ${#FILES[@]} paths at /" uistatus
+
+# This logic does not work above 100 items, but that is unlikely in this example
+# Example of how to use the second tick mark `printf %02i $((80 % 100))`
+declare -i TICK_MARK="$((100 / ${#FILES[@]}))"
+IFS=$'\n'
+# Loop through the top level
+for (( N = 0 ; N <="${#FILES[@]}"; N++ )) ; do
+	if [ ${PROGRESS:-0} -eq 0 ] ; then
+		# Start the progress bar a little early for the first folder 
+		declare -i PROGRESS="$TICK_MARK"
+		setInstallPercentage $PROGRESS.00
+	else
+		declare -i PROGRESS="$((${PROGRESS:-0} + $TICK_MARK))"
+	fi
+	declare FOLDER="${FILES[$N]}"
+	
+	# Skip over symlinks
+	[ -L "$FOLDER" ] && continue
+	
+	# Run Through the excluded list
+	StatusMSG $FUNCNAME "Processing: $FOLDER" uistatus
+	if  [ "$FOLDER" != '/Volumes' ] &&
+	[ "$FOLDER" != '/Network' ] &&
+	[ "$FOLDER" != '/Recycled' ] &&
+	[ "$FOLDER" != '/cores' ] &&
+	[ "$FOLDER" != '/dev' ] &&
+	[ "$FOLDER" != '/net' ]
+	then
+	$find "$FOLDER" \
+	-not -path "/private/var/tmp*" \
+	-not -path "/private/var/run*" \
+	-type f \
+	-depth 3 \
+	-name "*.plist" \
+	-print0 | $xargs -0 $plutil 
+	setInstallPercentage $PROGRESS.00
+	fi
 done
+IFS="$OLDIFS"
 setInstallPercentage 99.00
 die 0

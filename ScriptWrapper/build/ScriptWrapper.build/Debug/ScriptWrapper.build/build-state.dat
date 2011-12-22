@@ -1,21 +1,21 @@
 TScriptWrapper
 v7
 r0
-t344594279.357841
+t346219539.621873
 cCheck dependencies
-cProcessInfoPlistFile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist ScriptWrapper-Info.plist
-cCopyStringsFile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
-cCompileXIB /Users/acid/Dropbox/code/ScriptWrapper/English.lproj/MainMenu.xib
+cProcessInfoPlistFile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist ScriptWrapper-Info.plist
+cCopyStringsFile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/English.lproj/MainMenu.xib
 cCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptWrapper.icns ScriptWrapper.icns
-cCopyPlistFile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/settings.plist settings.plist
+cCopyPlistFile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/settings.plist settings.plist
 cCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptHelper ScriptHelper
 cCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptRunner.app ScriptRunner.app
-cProcessPCH /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch.gch ScriptWrapper_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o /Users/acid/Dropbox/code/ScriptWrapper/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o /Users/acid/Dropbox/code/ScriptWrapper/Constants.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper normal x86_64
-cTouch /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app
+cProcessPCH /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-bjnewolgqheirtbqvwykwcwrlrmk/ScriptWrapper_Prefix.pch.gch ScriptWrapper_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapperAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/Constants.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper normal x86_64
+cTouch /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004CAA740B00000000000000EE
@@ -36,6 +36,131 @@ N/System/Library/Frameworks/Cocoa.framework/Cocoa
 c000000004E274D460000000000006560
 t1311198534
 s25952
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/Constants.h
+c000000004ED9A88300000000000000FF
+t1322887299
+s255
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/Constants.m
+c000000004ED9A8FB000000000000010A
+t1322887419
+s266
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/English.lproj/InfoPlist.strings
+c000000004ED9A343000000000000002D
+t1322885955
+s45
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/English.lproj/MainMenu.xib
+c000000004ED9AA44000000000002C0A3
+t1322887748
+s180387
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptHelper
+c000000004ED9A8080000000000009414
+t1322887176
+s37908
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptRunner.app
+c000000004EF2AC850000000000000066
+t1324526725
+s102
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapper.icns
+c000000004B70BC840000000000015E29
+t1265679492
+s89641
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapperAppDelegate.h
+c000000004ED9AC54000000000000023F
+t1322888276
+s575
+i<Cocoa/Cocoa.h>
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapperAppDelegate.m
+c000000004ED9ADA10000000000000DEE
+t1322888609
+s3566
+i"ScriptWrapperAppDelegate.h"
+i"Constants.h"
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapper_Prefix.pch
+c000000004ED9A343000000000000009D
+t1322885955
+s157
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app
+t1324526739
+s102
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist
+t1322984201
+s990
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper
+t1324523134
+s18032
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/PkgInfo
+t1322984201
+s8
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1322984202
+s92
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/MainMenu.nib
+t1322984203
+s27181
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/ScriptHelper
+t1322984202
+s37908
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/ScriptRunner.app
+t1324526739
+s102
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/ScriptWrapper.icns
+t1322984202
+s89641
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/settings.plist
+t1322984202
+s462
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o
+t1324523134
+s6240
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapper.LinkFileList
+c000000004EDB230900000000000001A8
+t1322984201
+s424
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o
+t1324523134
+s30024
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o
+t1324523134
+s5016
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/main.m
+c000000004ED9A3430000000000000101
+t1322885955
+s257
+i<Cocoa/Cocoa.h>
+
+N/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/settings.plist
+c000000004ED9AD9900000000000001CE
+t1322888601
+s462
 
 N/Users/acid/Dropbox/code/ScriptWrapper/../ScriptHelper/build/Debug/ScriptHelper
 c000000004ED9A7D000000000000026C0
@@ -176,6 +301,10 @@ c000000004ED9AD9900000000000001CE
 t1322888601
 s462
 
+N/var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-bjnewolgqheirtbqvwykwcwrlrmk/ScriptWrapper_Prefix.pch.gch
+t1324523133
+s54306576
+
 N/var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch.gch
 t1322887425
 s54306576
@@ -187,7 +316,20 @@ s1040
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies344594278#344594278#0(0"0(0#1#0"4519888192#0"0#
+lSLF07#2@18"Check dependencies346219539#346219539#0(0"0(0#1#0"4545033536#0"0#
+
+CCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/Constants.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s346215934.185439
+e346215934.502472
+r1
+xCompileC
+xbuild/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o
+x/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/Constants.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/Constants.m346215934#346215934#0(0"0(0#0#63"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/Constants.m4545883792#1726"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-bjnewolgqheirtbqvwykwcwrlrmk/ScriptWrapper_Prefix.pch -c /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/Constants.m -o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o0#
 
 CCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o /Users/acid/Dropbox/code/ScriptWrapper/Constants.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s344580365.672118
@@ -202,6 +344,19 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@58"Compile /Users/acid/Dropbox/code/ScriptWrapper/Constants.m344580365#344580366#0(0"0(0#0#50"/Users/acid/Dropbox/code/ScriptWrapper/Constants.m4504317584#1583"    cd /Users/acid/Dropbox/code/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch -c /Users/acid/Dropbox/code/ScriptWrapper/Constants.m -o /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/Constants.o0#
 
+CCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapperAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s346215933.925248
+e346215934.467581
+r1
+xCompileC
+xbuild/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o
+x/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapperAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapperAppDelegate.m346215933#346215934#0(0"0(0#0#78"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapperAppDelegate.m4545883792#1756"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-bjnewolgqheirtbqvwykwcwrlrmk/ScriptWrapper_Prefix.pch -c /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapperAppDelegate.m -o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o0#
+
 CCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s344581409.396301
 e344581410.021842
@@ -214,6 +369,19 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@73"Compile /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m344581409#344581410#0(0"0(0#0#65"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m4511276688#1613"    cd /Users/acid/Dropbox/code/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch -c /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapperAppDelegate.m -o /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapperAppDelegate.o0#
+
+CCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s346215933.920589
+e346215934.185295
+r1
+xCompileC
+xbuild/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o
+x/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/main.m346215933#346215934#0(0"0(0#0#58"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/main.m4545883792#1716"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-bjnewolgqheirtbqvwykwcwrlrmk/ScriptWrapper_Prefix.pch -c /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/main.m -o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o0#
 
 CCompileC build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o /Users/acid/Dropbox/code/ScriptWrapper/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s344580365.163325
@@ -228,6 +396,14 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@53"Compile /Users/acid/Dropbox/code/ScriptWrapper/main.m344580365#344580365#0(0"0(0#0#45"/Users/acid/Dropbox/code/ScriptWrapper/main.m4504317584#1573"    cd /Users/acid/Dropbox/code/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -include /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch -c /Users/acid/Dropbox/code/ScriptWrapper/main.m -o /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/main.o0#
 
+CCompileXIB /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/English.lproj/MainMenu.xib
+s344677001.962051
+e344677003.417826
+r1
+xCompileXIB
+x/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib344677001#344677003#0(0"0(0#0#78"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/English.lproj/MainMenu.xib4395847312#409"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/MainMenu.nib /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
 CCompileXIB /Users/acid/Dropbox/code/ScriptWrapper/English.lproj/MainMenu.xib
 s344580551.074949
 e344580552.116920
@@ -235,6 +411,15 @@ r1
 xCompileXIB
 x/Users/acid/Dropbox/code/ScriptWrapper/English.lproj/MainMenu.xib
 lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib344580551#344580552#0(0"0(0#0#65"/Users/acid/Dropbox/code/ScriptWrapper/English.lproj/MainMenu.xib4504276624#370"    cd /Users/acid/Dropbox/code/ScriptWrapper    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/MainMenu.nib /Users/acid/Dropbox/code/ScriptWrapper/English.lproj/MainMenu.xib --sdk /Developer/SDKs/MacOSX10.6.sdk0#
+
+CCopyPlistFile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/settings.plist settings.plist
+s344677002.255500
+e344677002.315311
+r1
+xCopyPlistFile
+x/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/settings.plist
+xsettings.plist
+lSLF07#2@19"Copy settings.plist344677002#344677002#0(0"0(0#0#66"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/settings.plist4395847312#275"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist settings.plist --outdir /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources0#
 
 CCopyPlistFile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/settings.plist settings.plist
 s344581409.301175
@@ -244,6 +429,15 @@ xCopyPlistFile
 x/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/settings.plist
 xsettings.plist
 lSLF07#2@19"Copy settings.plist344581409#344581409#0(0"0(0#0#53"/Users/acid/Dropbox/code/ScriptWrapper/settings.plist4511276688#249"    cd /Users/acid/Dropbox/code/ScriptWrapper    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist settings.plist --outdir /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources0#
+
+CCopyStringsFile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s344677001.950866
+e344677002.252694
+r1
+xCopyStringsFile
+x/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings344677001#344677002#0(0"0(0#0#83"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/English.lproj/InfoPlist.strings4395847312#397"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj0#
 
 CCopyStringsFile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
 s344580363.211638
@@ -258,34 +452,44 @@ CCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptHelper ../Scr
 r0
 
 CCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptHelper ScriptHelper
-s344580363.657369
-e344580363.675580
+s344677002.315454
+e344677002.334453
 r1
 xCpResource
 xbuild/Debug/ScriptWrapper.app/Contents/Resources/ScriptHelper
 xScriptHelper
-lSLF07#2@17"Copy ScriptHelper344580363#344580363#0(0"0(0#0#51"/Users/acid/Dropbox/code/ScriptWrapper/ScriptHelper4504317584#348"    cd /Users/acid/Dropbox/code/ScriptWrapper    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/acid/Dropbox/code/ScriptWrapper/ScriptHelper /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources0#
+lSLF07#2@17"Copy ScriptHelper344677002#344677002#0(0"0(0#0#64"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptHelper4395847312#387"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptHelper /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources0#
 
 CCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptRunner.app ScriptRunner.app
-s344594278.769876
-e344594279.349239
+s346219539.442754
+e346219539.524191
 r1
 xCpResource
 xbuild/Debug/ScriptWrapper.app/Contents/Resources/ScriptRunner.app
 xScriptRunner.app
-lSLF07#2@21"Copy ScriptRunner.app344594278#344594279#0(0"0(0#0#55"/Users/acid/Dropbox/code/ScriptWrapper/ScriptRunner.app4519886480#352"    cd /Users/acid/Dropbox/code/ScriptWrapper    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/acid/Dropbox/code/ScriptWrapper/ScriptRunner.app /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources0#
+lSLF07#2@21"Copy ScriptRunner.app346219539#346219539#0(0"0(0#0#68"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptRunner.app4545031824#391"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptRunner.app /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources0#
 
 CCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptRunner.icns ScriptRunner.icns
 r0
 
 CCpResource build/Debug/ScriptWrapper.app/Contents/Resources/ScriptWrapper.icns ScriptWrapper.icns
-s344580363.561393
-e344580363.583140
+s344677002.252827
+e344677002.279632
 r1
 xCpResource
 xbuild/Debug/ScriptWrapper.app/Contents/Resources/ScriptWrapper.icns
 xScriptWrapper.icns
-lSLF07#2@23"Copy ScriptWrapper.icns344580363#344580363#0(0"0(0#0#57"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapper.icns4504317584#354"    cd /Users/acid/Dropbox/code/ScriptWrapper    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapper.icns /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources0#
+lSLF07#2@23"Copy ScriptWrapper.icns344677002#344677002#0(0"0(0#0#70"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapper.icns4395847312#393"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapper.icns /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Resources0#
+
+CLd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper normal x86_64
+s346215934.502613
+e346215934.711272
+r1
+xLd
+x/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper
+xnormal
+xx86_64
+lSLF07#2@115"Link /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper346215934#346215934#0(0"0(0#0#0"4545883792#657"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug -F/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug -filelist /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapper.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Security -o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper0#
 
 CLd /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper normal x86_64
 s344581410.021968
@@ -297,6 +501,15 @@ xnormal
 xx86_64
 lSLF07#2@102"Link /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper344581410#344581410#0(0"0(0#0#0"4511276688#592"    cd /Users/acid/Dropbox/code/ScriptWrapper    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/acid/Dropbox/code/ScriptWrapper/build/Debug -F/Users/acid/Dropbox/code/ScriptWrapper/build/Debug -filelist /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/Objects-normal/x86_64/ScriptWrapper.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Security -o /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/MacOS/ScriptWrapper0#
 
+CProcessInfoPlistFile /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist ScriptWrapper-Info.plist
+s344677001.940092
+e344677001.950727
+r1
+xProcessInfoPlistFile
+x/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist
+xScriptWrapper-Info.plist
+lSLF07#2@32"Process ScriptWrapper-Info.plist344677001#344677001#0(0"0(0#0#76"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapper-Info.plist4395847424#367"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    builtin-infoPlistUtility ScriptWrapper-Info.plist -genpkginfo /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist0#
+
 CProcessInfoPlistFile /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist ScriptWrapper-Info.plist
 s344580988.326909
 e344580988.444521
@@ -305,6 +518,19 @@ xProcessInfoPlistFile
 x/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist
 xScriptWrapper-Info.plist
 lSLF07#2@32"Process ScriptWrapper-Info.plist344580988#344580988#0(0"0(0#0#63"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapper-Info.plist4489223936#328"    cd /Users/acid/Dropbox/code/ScriptWrapper    builtin-infoPlistUtility ScriptWrapper-Info.plist -genpkginfo /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-bjnewolgqheirtbqvwykwcwrlrmk/ScriptWrapper_Prefix.pch.gch ScriptWrapper_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s346215897.647964
+e346215933.920375
+r1
+xProcessPCH
+x/var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-bjnewolgqheirtbqvwykwcwrlrmk/ScriptWrapper_Prefix.pch.gch
+xScriptWrapper_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@35"Precompile ScriptWrapper_Prefix.pch346215897#346215933#0(0"0(0#0#76"/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapper_Prefix.pch4545883792#1603"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -c /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/ScriptWrapper_Prefix.pch -o /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-bjnewolgqheirtbqvwykwcwrlrmk/ScriptWrapper_Prefix.pch.gch0#
 
 CProcessPCH /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch.gch ScriptWrapper_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
 s344580219.649249
@@ -318,6 +544,14 @@ xx86_64
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@35"Precompile ScriptWrapper_Prefix.pch344580219#344580225#0(0"0(0#0#63"/Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapper_Prefix.pch4527226512#1473"    cd /Users/acid/Dropbox/code/ScriptWrapper    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-generated-files.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-own-target-headers.hmap -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-all-target-headers.hmap -iquote /Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/ScriptWrapper-project-headers.hmap -F/Users/acid/Dropbox/code/ScriptWrapper/build/Debug -I/Users/acid/Dropbox/code/ScriptWrapper/build/Debug/include -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources/x86_64 -I/Users/acid/Dropbox/code/ScriptWrapper/build/ScriptWrapper.build/Debug/ScriptWrapper.build/DerivedSources -c /Users/acid/Dropbox/code/ScriptWrapper/ScriptWrapper_Prefix.pch -o /var/folders/d4/gqkz3rx95vn8gn_15r2jxk85mjyybw/C/com.apple.Xcode.1763670396/SharedPrecompiledHeaders/ScriptWrapper_Prefix-fspsuyuqgrvwauggwmynzzvwffgj/ScriptWrapper_Prefix.pch.gch0#
+
+CTouch /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app
+s346219539.526786
+e346219539.621784
+r1
+xTouch
+x/Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app
+lSLF07#2@87"Touch /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app346219539#346219539#0(0"0(0#0#0"4545031824#163"    cd /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper    /usr/bin/touch -c /Users/acid/Dropbox/code/ScriptRunner/ScriptWrapper/build/Debug/ScriptWrapper.app0#
 
 CTouch /Users/acid/Dropbox/code/ScriptWrapper/build/Debug/ScriptWrapper.app
 s344594279.350011

@@ -19,6 +19,10 @@
 {	
 	[super init];
 	[self readInSettings];
+	[[NSNotificationCenter defaultCenter] addObserver:self
+											 selector:@selector(taskComplete) 
+												 name:NSTaskDidTerminateNotification
+											   object:nil];
 	return self;
 }
 
@@ -78,6 +82,9 @@
 # pragma mark Progress Bar Interactions
 -(void)startUserProgressIndicator
 {
+	[userProgressBar setBezeled:YES];
+	[userProgressBar setDisplayedWhenStopped:NO];
+	[userProgressBar setUsesThreadedAnimation:YES];
 	[userProgressBar performSelectorOnMainThread:@selector(startAnimation:)
 									  withObject:self
 								   waitUntilDone:false];
@@ -168,9 +175,11 @@
 }
 
 
--(void)repairStopped
+-(void)taskComplete
 {
-	[ updateProgressBarTime invalidate];
+	[ userProgressBar setIndeterminate:YES];
+	[self stopUserProgressIndicator];
+
 }
 
 
