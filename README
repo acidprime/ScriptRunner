@@ -29,6 +29,10 @@ If you find a bug please report it as I use variations of this code often and wo
 love to hear any feedback.
 --------------------------------------------------------------------------------
 History:
+Version 1.0B
+Updated script to do something kind of examplish, searching directories with find
+fixed progress bar support, will update phase,status and other todos later.
+Email support argument menus need some work
 Version 1.0A 
 
 Intial Commit
