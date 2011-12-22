@@ -1,0 +1,38 @@
+Script Runner
+--------------------------------------------------------------------------------
+This is an example of using NSTasks with a NSTextView for real time output.
+As that comes up allot I have also included my StatusMessage Class which is a hacky
+little file drop script to graphical user interface bridge. This allows you to update
+two text fields and a progress bar from with-in shell style code. I am currently
+rewriting this in python with NSConnections for a cleaner feel but you could also 
+do this with pipes. However in its current form it works well enough. I am also 
+adding couple of features related to arguments and emailing the output but thats in progress.
+--------------------------------------------------------------------------------
+This project has three main parts:
+
+ScriptWrapper
+This is an UIelement (no dock icon) app that runs the Helper command line tool
+
+ScriptHelper
+This is a little hacked (Apple) example of a command line that allows execution
+with privileges. This method is deprecated in Lion but has been tested 10.5 - 10.7 and works.
+
+ScriptRunner
+This is the main graphical tool that is launched by the helper. It is launched with root
+privs and that is in turn inherited in the script. This needs to be locked down a bit more but 
+its not much different then "with administrative privileges" in AppleScript type apps. 
+--------------------------------------------------------------------------------
+
+All applications can be modified without major code modification by editing the
+values in the respective settings.plist in the bundle and modifying the nib files.
+If you find a bug please report it as I use variations of this code often and would
+love to hear any feedback.
+--------------------------------------------------------------------------------
+History:
+Version 1.0A 
+
+Intial Commit
+Most things working, just merging a couple of code bases. Need to update StatusMessage
+to work with this Tool
+ 
+
