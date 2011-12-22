@@ -28,6 +28,8 @@ values in the respective settings.plist in the bundle and modifying the nib file
 If you find a bug please report it as I use variations of this code often and would
 love to hear any feedback.
 --------------------------------------------------------------------------------
+Compiled version in the downloads section, go there is xcode scares you
+
 History:
 Version 1.0B
 Updated script to do something kind of examplish, searching directories with find
